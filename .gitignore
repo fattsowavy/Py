@@ -1,0 +1,8 @@
+# Abaikan folder virtual environment
+CV/.venv/
+Latihan/.venv/
+
+# Abaikan file yang tidak ingin di-push
+*.log
+*.zip
+.DS_Store
