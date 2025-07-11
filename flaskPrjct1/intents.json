@@ -1,0 +1,27 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": ["hai", "halo", "apa kabar", "selamat pagi", "selamat malam"],
+      "responses": [
+        "Halo! Ada yang bisa saya bantu?",
+        "Hai! Senang bertemu denganmu."
+      ]
+    },
+    {
+      "tag": "selamat tinggal",
+      "patterns": ["dadah", "sampai jumpa", "selamat tinggal"],
+      "responses": ["Sampai jumpa!", "Semoga harimu menyenangkan!"]
+    },
+    {
+      "tag": "terima kasih",
+      "patterns": ["terima kasih", "makasih", "thank you"],
+      "responses": ["Sama-sama!", "Terima kasih kembali!"]
+    },
+    {
+      "tag": "tidak mengerti",
+      "patterns": ["tidak", "tidak tau"],
+      "responses": ["Maaf, saya tidak mengerti. Bisa ulangi?"]
+    }
+  ]
+}
